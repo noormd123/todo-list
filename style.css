@@ -1,0 +1,96 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	color: #333;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;    
+	margin: 3% 15%;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+table {
+	border: 1px solid #416a6f;
+	width: 100%;
+}
+
+table thead th {
+	background-color: #66abb3;
+	color: #fff;
+}
+
+table thead th, table tbody td {
+	padding: .8em;
+}
+
+input[type='text'] {
+	padding: 5px 10px 5px;
+	height: 30px;
+    width: 50%;    
+}
+
+.header h1 {
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	background-color: #416a6f;
+	color: #fff;
+	padding: 1em;	
+}
+
+.header .entry-detail {
+	border: 1px solid #416a6f;
+	padding: 1em;
+	text-align: center;	
+}
+
+.header #addToList {    
+    font-size: 2em;	
+    font-weight: bold;
+	height: 36px;
+    vertical-align: -3px;
+	width: 200px;
+}
+
+.table-zebra > tbody > tr:nth-of-type(odd) {
+	background-color: #cce3e6;
+}
+
+.table-zebra > tbody > tr:nth-of-type(even) {
+	background-color: #fff;
+}
+
+.delete {
+	background: url('delete.png');
+	cursor: pointer;
+	display: inline-block;
+	width: 16px;
+	height: 16px;			
+}
+
+.button-bar {
+	background-color: #cce3e6;
+	margin-top: 1em;
+	padding: 1em;
+	text-align: right;
+}
+
+.button-bar button{
+	padding: .5em;
+}
+
+.align-left {
+	text-align: left;
+}
+
+.align-right {
+	text-align: right;
+}
+
+.align-center {
+	text-align: center;
+}
