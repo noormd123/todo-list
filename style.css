@@ -6,7 +6,7 @@
 body {
 	color: #333;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 13px;    
+	font-size: 13px;    
 	margin: 3% 15%;
 }
 
@@ -31,7 +31,7 @@ table thead th, table tbody td {
 input[type='text'] {
 	padding: 5px 10px 5px;
 	height: 30px;
-    width: 50%;    
+	width: 50%;    
 }
 
 .header h1 {
@@ -49,10 +49,10 @@ input[type='text'] {
 }
 
 .header #addToList {    
-    font-size: 2em;	
-    font-weight: bold;
+	font-size: 2em;	
+	font-weight: bold;
 	height: 36px;
-    vertical-align: -3px;
+	vertical-align: -3px;
 	width: 200px;
 }
 
@@ -65,7 +65,7 @@ input[type='text'] {
 }
 
 .delete {
-	background: url('delete.png');
+	background: url('https://cloud.githubusercontent.com/assets/15929938/11426829/a5e20afe-9484-11e5-84fc-1bc006225d89.png');
 	cursor: pointer;
 	display: inline-block;
 	width: 16px;
