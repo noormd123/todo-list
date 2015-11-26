@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>To-Do List</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<div id="wrapper">
+	<div class="header">
+		<h1>TO-DO List</h1>
+		<div class="entry-detail">
+			<input type="text" id="item" maxlength="140" />
+			<button type="button" id="addToList"> + </button>
+		</div>
+	</div>
+	<div class="section">
+		<table id="ToDoList" class="table-zebra">
+			<thead>
+				<tr>	
+					<th width="10%"><input type="checkbox" id="selectAll" /></th>
+					<th width="40%">Todo Item</th>
+					<th width="30%">Status</th>
+					<th width="20%">Delete</th>
+				</tr>
+			</thead>
+			<tbody>
+			</tbody>
+		</table>
+		<div class="button-bar">
+			<button type="button" id="markComplete">Mark as completed</button>
+		</div>
+	</div>
+</div>
+<script src="jquery-1.11.3.min.js" type="text/javascript"></script>
+<script src="todo.class.js" type="text/javascript"></script>
+<script src="script.js" type="text/javascript"></script>
+</body>
+</html>
